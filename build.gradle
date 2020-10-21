@@ -37,6 +37,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     compile('org.springframework.session:spring-session-jdbc')
     compile("org.mariadb.jdbc:mariadb-java-client")
+    compile("mysql:mysql-connector-java")
     testCompile('org.springframework.boot:spring-boot-starter-test')
 
 }
